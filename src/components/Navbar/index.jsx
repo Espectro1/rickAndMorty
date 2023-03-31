@@ -5,7 +5,11 @@ export const NavBar = () => {
 
   return (
     <div className="navbar">
-      <img src={`${origin}/logo.svg`} alt="logo" className="logo"></img>
+      <img
+        src={`${origin}/rickAndMorty/logo.svg`}
+        alt="logo"
+        className="logo"
+      ></img>
     </div>
   );
 };
