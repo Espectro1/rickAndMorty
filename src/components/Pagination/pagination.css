@@ -19,7 +19,15 @@
     height: 3rem;
     cursor: pointer;
     background-color: #65c0e1d6;
-    border: 2px solid #0099CC;
+    border: 2px solid #0099CC; 
     width: 150px;
     border-radius: 1px 12px 12px 1px;
+}
+
+.buttonNext:hover{
+    background-color: #0099CC;
+}
+
+.buttonPrev:hover{
+    background-color: #0099CC;
 }

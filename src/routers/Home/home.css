@@ -89,8 +89,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
 }
+
+.btn:hover{
+    background-color: #51751f;
+}
+/* .btn:focus{
+    background-color: #93c64d;
+} */
 
 .filters_container{
     padding: 1rem 0;

@@ -98,3 +98,7 @@
     max-width: 390px;
     }
 }
+
+.btn_back:hover{
+   background-color:  #51751f;
+}
