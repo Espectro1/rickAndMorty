@@ -7,13 +7,13 @@ import "./index.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="rickAndMorty">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Layout />} />
         </Route>
         <Route
-          path="/characters"
+          path="characters"
           element={<Layout pageToRender={"characters"} />}
         />
         <Route
