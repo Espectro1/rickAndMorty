@@ -60,6 +60,7 @@
 }
 
 .character_container_info{
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
 }
