@@ -1,0 +1,25 @@
+.pagination_container{
+    margin: 2rem 0;
+}
+
+.buttonPrev{
+    color: #fff;
+    height: 3rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    background-color: #65c0e1d6;
+    border: 2px solid #0099CC;
+    width: 150px;
+    border-radius: 12px 1px 1px 12px;
+}
+
+.buttonNext{
+    color: #fff;
+    font-size: 1.125rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: #65c0e1d6;
+    border: 2px solid #0099CC;
+    width: 150px;
+    border-radius: 1px 12px 12px 1px;
+}

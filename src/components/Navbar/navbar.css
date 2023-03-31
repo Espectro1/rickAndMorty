@@ -1,0 +1,18 @@
+.navbar{
+    background-color: #93c64d;
+    box-shadow: 0px 0px 10px 0px #51751f;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 350px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 420px) {
+  .logo{
+    width: 250px;
+    height: 150px;
+  }
+}
